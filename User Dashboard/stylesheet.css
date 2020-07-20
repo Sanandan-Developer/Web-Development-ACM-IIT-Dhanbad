@@ -1,0 +1,81 @@
+body{
+  /*border: 5px solid blue;*/
+  background-color: ;
+}
+
+h2,p,img{
+  /*border: 1px solid;*/
+}
+
+
+header {
+  /*border: 5px solid red;*/
+  text-align: center;
+  font-family: "Aldrich";
+  opacity: 0.8;
+  font-size: 28px;
+}
+
+.text{
+  font-family: "Aclonica";
+  font-weight: normal;
+  opacity: 0.75;
+}
+
+.event{
+  /*border: 5px dashed green;*/
+  height: 300px;
+  padding: 50px;
+}
+
+.flyer{
+  /*border: 1px solid #ff323a;*/
+  height: 230px;
+  width: 230px;
+  float: left;
+  margin: 25px 40px 0 25px;
+}
+
+.flyer img{
+  width: 230px;
+}
+
+.code{
+  /*border: 1px solid brown;*/
+  height: 200px;
+  width: 300px;
+  float: left;
+  padding: 30px 30px 30px 30px;
+  margin: 25px 40px 0 25px;
+  font-size: 20px;
+}
+
+.code p{
+  text-align: center;
+  font-family: "Courier New";
+}
+
+.inception{
+  /*border: 1px solid brown;*/
+  height: 200px;
+  width: 300px;
+  float: left;
+  padding: 30px 30px 30px 30px;
+  margin: 25px 0 0 25px;
+  font-size: 20px;
+}
+
+.inception p{
+  text-align: center;
+  font-family: "Courier New";
+}
+
+.registered{
+  color: green;
+  font-weight: bold;
+}
+
+.unregistered{
+  color: red;
+  font-weight: bold;
+}
