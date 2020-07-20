@@ -1,0 +1,310 @@
+
+
+header{
+  height: 200px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: rgba(192,192,192, 0.7);
+}
+.header-logo img{
+  /*border: 1px solid black;*/
+  float:left;
+  padding-top: 21px;
+}
+
+.header-logo h1{
+  float: right;
+  padding-top: 13px;
+}
+.header-logo{
+  /*border: 1px solid green;*/
+  float:left;
+  font-size: 17px;
+  width: 350px;
+  font-family: "Aclonica";
+}
+
+.header-list{
+  /*border: 1px solid blue;*/
+  float: right;
+  font-size: 20px;
+  padding-top: 20px;
+  font-family: "Aldrich";
+}
+
+.header-list li{
+  /*border: 1px dashed red;*/
+  list-style: none;
+  float: left;
+  padding-right: 30px;
+}
+
+.message-wrapper{
+  background-color: rgba(192,192,192, 0.7);
+  height: 450px;
+}
+.message-heading{
+  text-align: center;
+  font-size: 36px;
+  font-family:"Amita";
+  letter-spacing: 4px;
+  padding-top: 30px;
+}
+
+.message-text{
+  /*border: 1px solid cyan;*/
+  margin: 0px 120px;
+  text-align: center;
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+}
+
+.line{
+  border: 5px solid grey;
+}
+
+.main-wrapper{
+  height: 580px;
+  padding: 50px;
+}
+
+.main-heading{
+  text-align: center;
+  font-size: 36px;
+  font-family:"Amita";
+  letter-spacing: 4px;
+}
+
+.main-text{
+  margin: 0px 120px;
+  text-align: center;
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+  margin-bottom: 80px;
+  border: 1px solid rgb(25, 153, 212);
+}
+
+.main-cards{
+  /*border: 1px solid green;*/
+  height: 220px;
+}
+
+.main-cards .card{
+  /*border: 1px dotted pink;*/
+  float: left;
+  width: 350px;
+  margin: 0px 27px;
+}
+
+.main-cards .card p{
+  font-family: "Comic Sans MS"
+}
+
+.main-cards .card h3{
+  font-size: 20px;
+  font-family: "Lucida Sans Unicode";
+}
+
+.main-cards .card .card-symbol{
+  /*border: 1px dashed green;*/
+  width: 90px;
+  height: 100px;
+  margin-top: 10px;
+  float: left;
+}
+
+.main-cards .card .card-text{
+  /*border: 1px solid red;*/
+  float: left;
+  width: 230px;
+  padding-left: 20px;
+}
+
+.feature-wrapper{
+  /*border: 1px solid green;*/
+  height: 650px;
+  padding: 50px;
+}
+
+.feature-heading{
+  text-align: center;
+  font-size: 36px;
+  font-family:"Amita";
+  letter-spacing: 4px;
+}
+
+.feature-text{
+  margin: 0px 120px;
+  text-align: center;
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+  margin-bottom: 80px;
+  border: 1px solid green;
+}
+
+.feature-cards{
+  /*border: 1px solid green;*/
+  height: 300px;
+  padding: 0px 10px;
+}
+
+.feature-cards .fcard{
+  /*border: 1px solid red;*/
+  float: left;
+  height: 270px; 
+  width: 380px;
+  margin: 0px 10px;
+}
+
+.review-wrapper{
+  /*border: 1px solid green;*/
+  height: 470px;
+  padding: 50px;
+}
+
+.review-heading{
+  text-align: center;
+  font-size: 36px;
+  font-family:"Amita";
+  letter-spacing: 4px;
+} 
+
+.rcard{
+  border: 1px solid red; 
+  width: 70%;
+  margin: 0 auto;
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+  padding: 20px 50px;
+}
+
+.line2{
+  border: 1px solid black;
+  margin: 29px auto;
+  width: 50%;
+}
+
+.rcard p{
+  margin: 10px auto;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-wrapper{
+  /*border: 1px solid green;*/
+  height: 650px;
+  padding: 50px;
+}
+
+.contact-heading{
+  text-align: center;
+  font-size: 36px;
+  font-family:"Amita";
+  letter-spacing: 4px;
+}
+
+.contact-text{
+  margin: 0px 120px;
+  text-align: center;
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+  margin-bottom: 80px;
+  border: 1.5px solid rgb(173, 49, 173);
+}
+
+.form{
+  /*border: 1px dotted red;*/
+  margin: 0px 120px;
+  height: 220px;
+}
+
+textarea{
+  width: 97%;
+  height: 70px;
+  margin-bottom: 15px;
+  border: 3px solid rgba(192,192,192, 0.7);
+  font-family: "Autour One";
+  font-size: 20px;
+  padding: 25px 0 0 25px;
+}
+
+input{
+  border: 3px solid rgba(192,192,192, 0.7);
+  font-family: "Autour One";
+  font-size: 15px;
+  padding: 10px 25px;
+  text-align: center;
+  margin: 0 23.76px 0 0;
+  width: 25%;
+}
+
+.btn{
+  background-color: rgba(77, 66, 66, 0.479);
+  border: 3px solid rgba(77, 66, 66, 0.479);
+  color: #fff;
+}
+
+.app-wrapper{
+  /*border: 1px solid green;*/
+  height: 550px;
+  padding: 50px;
+}
+
+.app-heading{
+  text-align: center;
+  font-size: 36px;
+  font-family:"Amita";
+  letter-spacing: 4px;
+}
+
+.app-text{
+  margin: 0px 120px;
+  text-align: center;
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+  margin-bottom: 80px;
+  border: 1px solid green;
+}
+
+.app-btn{
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Autour One";
+  opacity: 0.8
+}
+
+.app-btn:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+footer{
+  height: 300px;
+  background-color:  rgba(192,192,192, 0.7);
+}
+.footer-list{
+  border-bottom: 2px solid black;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 320px;
+  font-family: "Aldrich";
+  height: 80px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer-list li{
+  list-style:none;
+  float: left;
+  padding-right: 30px;
+  text-align: center;
+}
+
+.footer-text{
+  margin: 0px 120px;
+  text-align: center;
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+  margin-bottom: 80px;
+}
